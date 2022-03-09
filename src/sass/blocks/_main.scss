@@ -9,11 +9,52 @@
     font-size: 40px;
     line-height: 130%;
     color: #272727;
+    margin-bottom: 23px;
     span {
       background: #ff6b00;
       padding: 8px 13px 8px 7px;
       font-size: 35px;
       color: #ffffff;
     }
+  }
+  &-geo {
+    position: relative;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    padding-left: 34px;
+    margin-bottom: 25px;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 5px;
+      top: 15px;
+      left: 0;
+      background: url('../icons/Line.png');
+      background-size: 20px 1px;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+  &-info {
+    font-size: 24px;
+  }
+  &-links {
+    display: flex;  
+    margin-top: 31px;
+  }
+  &-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    &:first-child {
+      width: 399px;
+    }
+    &:last-child {
+      width: 333px;
+    }
+    margin-right: 37px;
   }
 }
