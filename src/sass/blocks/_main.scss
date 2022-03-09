@@ -1,0 +1,19 @@
+.main {
+  padding-top: 57px;
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-descr {
+    font-size: 40px;
+    line-height: 130%;
+    color: #272727;
+    span {
+      background: #ff6b00;
+      padding: 8px 13px 8px 7px;
+      font-size: 35px;
+      color: #ffffff;
+    }
+  }
+}

@@ -4,9 +4,12 @@
   font-family: "Roboto", sans-serif;
 }
 
+//libs
 @import "libs/bootstrap-grid.min";
 @import "libs/bootstrap-reboot.min";
 
 //blocks
 @import "blocks/btn";
+@import "blocks/title";
 @import "blocks/header";
+@import "blocks/main";
