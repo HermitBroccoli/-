@@ -1,0 +1,8 @@
+.patter {
+  width: 100%;
+  min-height: 1000px;
+  &__blue {
+    background: url("../img/bg/bg.png") no-repeat;
+    background-size: cover;
+  }
+}
