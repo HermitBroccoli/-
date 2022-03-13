@@ -1,0 +1,48 @@
+.ouradvent {
+  &-block {
+    width: 976px;
+    height: 530px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+    padding: 77px 100px 0 100px;
+    &__flex {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    &::before {
+      content: "";
+      width: 165px;
+      height: 165px;
+      background: url("../img/ouradvent/wires.png") no-repeat top;
+      position: absolute;
+      left: -101px;
+      top: -120px;
+      z-index: -1;
+    }
+    &::after {
+      content: "";
+      width: 218.37px;
+      height: 219.86px;
+      background: url("../img/ouradvent/screw.png");
+      position: absolute;
+      top: -100px;
+      right: -100px;
+    }
+  }
+  &-item {
+    text-align: center;
+    margin: 0 23px 28px 0;
+    &:nth-child(4) {
+      margin: 0 0 28px 0;
+    }
+    &__descr {
+      font-weight: 500;
+      font-size: 16px;
+      margin: 12px 0 0 0;
+    }
+  }
+}

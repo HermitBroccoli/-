@@ -1,8 +1,21 @@
 .patter {
   width: 100%;
   min-height: 1000px;
+  position: relative;
+  // padding-top: 116px;
   &__blue {
     background: url("../img/bg/bg.png") no-repeat;
+    background-position-y: 137px;
     background-size: cover;
+    z-index: -9999;
+    padding-top: 77px;
   }
+}
+
+.blue__line {
+  width: 290px;
+  border: 2px solid #0076a8;
+  margin-top: 21px;
+  margin: 0 auto;
+  margin-bottom: 41px;
 }
