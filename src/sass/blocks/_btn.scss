@@ -7,6 +7,7 @@
   font-weight: 500;
   color: #ffffff;
   text-transform: uppercase;
+  cursor: pointer;
   &-link {
     display: block;
     height: 78px;
@@ -18,5 +19,13 @@
       outline: 4px solid #ff6b00;
       color: #d75a00;
     }
+  }
+  &-medium {
+    width: 308px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 26px;
   }
 }
