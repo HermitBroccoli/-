@@ -1,0 +1,76 @@
+.consultation {
+  margin-top: 196px;
+  min-height: 644px;
+  &-block {
+    margin: 0 auto;
+    width: 1186px;
+    background: rgba(255, 255, 255, 0.95) url(../img/consultation/bg/bg.png)
+      center center/cover no-repeat;
+    padding: 81px 75px 82px 75px;
+    border: 5px solid #ff6b00;
+    border-radius: 5px;
+    position: relative;
+    &::before {
+      content: "";
+      width: 138px;
+      height: 128px;
+      background: url("../img/consultation/disk.png") no-repeat;
+      position: absolute;
+      top: -58px;
+      left: -72px;
+    }
+    &::after {
+      content: "";
+      width: 208px;
+      height: 156px;
+      background: url("../img/consultation/flash.png") no-repeat;
+      position: absolute;
+      bottom: -75px;
+      right: -65px;
+    }
+    &-descr {
+      text-align: center;
+      margin: 21px 0 88px 0;
+      font-weight: 400;
+      font-size: 30px;
+      color: #272727;
+      span {
+        font-weight: 600;
+        font-size: 30px;
+      }
+    }
+  }
+  &-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  &-input {
+    height: 78px;
+    background: linear-gradient(91.97deg, #ffffff 0%, #ffffff 100%);
+    border: 3px solid #ff6b00;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 26px;
+    padding: 24px 45px;
+    box-sizing: border-box;
+    color: #989797;
+    &:first-child {
+      width: 278px;
+    }
+    &:last-child {
+      width: 344px;
+    }
+  }
+  &-infoblock {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    &__link {
+      color: #272727;
+    }
+  }
+}

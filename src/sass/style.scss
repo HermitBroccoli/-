@@ -4,6 +4,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+input:focus,
+button:focus {
+  outline: none;
+}
+
 //libs
 @import "libs/bootstrap-grid.min";
 @import "libs/bootstrap-reboot.min";
@@ -16,3 +21,4 @@
 @import "blocks/patter";
 @import "blocks/ouradvent";
 @import "blocks/services";
+@import "blocks/consultation";
