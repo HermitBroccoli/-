@@ -1,5 +1,6 @@
 .patter {
   width: 100%;
+  min-height: 700px;
   position: relative;
   // padding-top: 116px;
   &__blue {
@@ -9,7 +10,10 @@
     // z-index: -9999;
     padding: 77px 0 110px 0;
   }
-  
+  &__grey {
+    background: url("../img/bg/bg1.png") no-repeat;
+    background-size: cover;
+  }
 }
 
 .blue__line {

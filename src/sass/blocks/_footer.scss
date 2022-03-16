@@ -1,0 +1,41 @@
+.footer {
+  padding: 12px 0 22px 0;
+  background: #0076a8;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &-item {
+    margin-right: 31px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__img {
+    width: 67px;
+    height: 83px;
+  }
+
+  &__call {
+    width: 58px;
+    height: 58px;
+  }
+
+  &-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
